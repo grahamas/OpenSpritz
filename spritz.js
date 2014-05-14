@@ -10,7 +10,6 @@ var readability_token = '172b057cd7cfccf27b60a36f16b1acde12783893'; // May need 
 var diffbot_token = '2efef432c72b5a923408e04353c39a7c'; 
 
 function create_spritz(){
-	alert("If you're seeing this, then the change to the fork was successful. Please let me know.");
      spritz_loader = function() {
         //getURL("https://rawgithub.com/Miserlou/OpenSpritz/master/spritz.html", function(data){
 
