@@ -20,7 +20,7 @@ function create_spritz(){
         //getURL("spritz.html", function(data){
 
         //getURL("https://rawgithub.com/Miserlou/OpenSpritz/dev/spritz.html", function(data){
-        getURL("https://rawgithub.com/grahamas/OpenSpritz/master/spritz.html", function(data){
+        getURL("https://rawgit.com/grahamas/OpenSpritz/master/spritz.html", function(data){
             var spritzContainer = document.getElementById("spritz_container");
 
             if (!spritzContainer) {
