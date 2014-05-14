@@ -3,12 +3,14 @@
 // rich@gun.io
 // https://github.com/Miserlou/OpenSpritz
 
+// Forked to: https://github.com/grahamas/OpenSpritz
+
 // Please don't abuse this.
-var readability_token = '172b057cd7cfccf27b60a36f16b1acde12783893';
-var diffbot_token = '2efef432c72b5a923408e04353c39a7c';
+var readability_token = '172b057cd7cfccf27b60a36f16b1acde12783893'; // May need to delete this token for changes
+var diffbot_token = '2efef432c72b5a923408e04353c39a7c'; 
 
 function create_spritz(){
-	 prompt("We're testing to see if this works.");
+	alert("If you're seeing this, then the change to the fork was successful. Please let me know.");
      spritz_loader = function() {
         //getURL("https://rawgithub.com/Miserlou/OpenSpritz/master/spritz.html", function(data){
 
@@ -18,7 +20,7 @@ function create_spritz(){
         //getURL("spritz.html", function(data){
 
         //getURL("https://rawgithub.com/Miserlou/OpenSpritz/dev/spritz.html", function(data){
-        getURL("https://rawgithub.com/Miserlou/OpenSpritz/master/spritz.html", function(data){
+        getURL("https://rawgithub.com/grahamas/OpenSpritz/master/spritz.html", function(data){
             var spritzContainer = document.getElementById("spritz_container");
 
             if (!spritzContainer) {
